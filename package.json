@@ -1,0 +1,15 @@
+{
+    "name": "pre-commit-commitlint",
+    "version": "1.0.0",
+    "description": "A pre-commit hook for commitlint",
+    "main": "index.js",
+    "repository": "",
+    "author": "Tino de Bruijn <tino@solarmonkey.nl>",
+    "license": "MIT",
+    "bin": {
+      "commitlint": "./node_modules/@commitlint/cli/cli.js"
+    },
+    "dependencies": {
+      "@commitlint/cli": "17.5.1"
+    }
+  }
